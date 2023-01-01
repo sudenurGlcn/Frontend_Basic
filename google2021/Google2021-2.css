@@ -1,0 +1,177 @@
+.navbar{
+    height:9vh;
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    }
+    .sol-ust,.en-sag,.sag{
+        display: flex;
+        flex-direction: row;
+        padding-top:1.5vh;
+        color:#000;
+    }
+   
+    .sag-ust{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        right: 0px;
+    }
+    #sg{
+        background-color:#4387fd;
+        line-height:28px;
+        border: 1px solid #4285f4;
+        font-weight: bold;
+        margin-right:10px;
+        margin-left:25px;
+        padding-right:15px;
+        margin-top:-5px;
+        border-radius: 2px;
+        font-size: 13px;
+        padding-left: 15px;
+    }
+    .sga{
+        color: #fff; 
+    }
+    li{
+        list-style:none;
+        padding-left:27px;
+        text-align: center;
+    }
+    #image{
+        width: 16px;
+        height: 16px;
+    }
+    .center{
+       height:35vh;
+       
+    }
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 272px;
+        height:92;
+        padding-top: 109px;
+    }
+    .search{
+        width:100%;
+        height:20vh;
+        
+    }
+    #area{
+        width: 480px;
+        height: 44px;
+        border-radius:24px;
+        border: 1px solid #dfe1e5;
+        box-shadow: 0 1px 6px 0 rgb(32 33 30 / 28%);
+        border-color: rgba(223,225,229,0);
+        margin-left:35vh;
+        display:inline-block;
+        margin-top: 18px;
+        outline: none;
+
+    }
+    
+    .kutu{
+        display:inline;
+    }
+    .mic1{
+        width: 20px;
+        height: 20px;
+        background-color: #4285f4;
+        display:inline;
+    }
+    .mic{
+        background-image:url(//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+        width:4px;
+        height:4px;
+        
+    }
+    #btn1{
+        border: 1px solid #f2f2f2;
+        color:#5f6368;
+        font-size: 14px;
+        font-family: Arial,sans-serif;
+        height: 36px;
+        border-radius:4%;
+        text-align: center;
+        min-width: 54px;
+        margin-left:40%;
+        margin-right: 5%;
+        margin-top: 25px;
+        background-color: #f8f9fa;
+
+    }
+    #btn2{
+        border: 1px solid #f2f2f2;
+        color:#5f6368;
+        font-size: 14px;
+        font-family:Arial,sans-serif;
+        height: 36px;
+        border-radius:4%;
+        text-align: center;
+        background-color: #f8f9fa;
+    }
+    .bosluk{
+        height:46vh;
+      
+    }
+    .footer{
+        height:6.2vh;
+        background-color:#f2f2f2 ;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+       
+        
+    }
+    .footerli{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding-top:1.5vh;
+        
+        
+       
+    }
+    .footer-sol{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding-left:25px;
+        margin-right: 5px;
+    }
+    .footer-sag{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding-right:25px;
+    }
+    a{
+        color: #5f6368;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+      
+    }
+    .su{
+        color:#000;
+        font-size: 13px;
+        font-family: Arial,sans-serif;
+    }
+    .si{
+        
+        opacity: 0.6;
+        
+    }
+    @media only screen and (max-width:970px) {
+        #area{
+            margin-left:10vh;
+        }
+        #btn1,#btn2{
+            margin-left:15vh;
+        }
+        
+    }
+    
+    

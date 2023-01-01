@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>
+           survey form 
+        </title>
+        <link rel="stylesheet" href="project2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1  id="title " >
+            Website Survey  Form 
+         </h1>
+         <p id="description">Thank you for taking the time to help us improve the website  </p>
+
+      <form action="" id=" survey-form">
+        <div>
+            <label for="Name" id="name-label">Name</label>
+            <input id="Name" type="text" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label for="Email" id="email-label">Email </label>
+            <input id="email" type="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <label for="Age" id="number-label" >Age</label>
+            <input id="Age" type="number" placeholder="Enter your age" min="5" max="90">
+        </div>
+        <div>
+            <label for="What IS Your Favorite Content Of This Page" id="dropdown" >What Is Your Favorite Content Of This Page</label>
+            <select id="value-select">
+                <option value=""  >Novels we are talking about </option>
+                <option value=""  >poems we are talking about </option>
+                <option value=""> Book recommendation lists </option>
+                <option value="">Authors we are talking about </option>
+            </select>
+            <div class="label-input">
+                <label  id="ilk" for="Would You Recommend Our Website to a friend">Would You Recommend Our Website to a friend</label>
+                <input id="Definetely" type="radio" name="zarf" class="sc">Definetely
+                <input id="Maybe" type="radio"  name="zarf"class="sc">Maybe                            
+                <input id="Never" type="radio" name="zarf" class="sc">Never
+            </div>
+            <div class="label-input">
+                <label id="ikinci" for="" >What Is Your Favorite Types Of Books </label>
+                <input  type="checkbox" value="Action And Advanture" class="cb">Action And Advanture <br>
+                <input  type="checkbox" value="Dedective And Mystery"class="cb" >Dedective And Mystery <br>
+                <input  type="checkbox" value="Fantasy"class="cb" >Fantasy <br>
+                <input  type="checkbox" value="Historical Fiction"class="cb">Historical Fiction <br>
+                <input  type="checkbox" value="Horor"class="cb">Horor <br>
+                <input  type="checkbox" value="Romance"class="cb">Romance <br>
+                 <input  type="checkbox" value="Science Fiction"class="cb">Science Fiction <br>
+                <input  type="checkbox" value="Classics"class="cb" >Classics 
+            </div>
+            <div>
+                <label for="Any Comments or Suggestions">Any Comments or Suggestions</label>
+                 <textarea id="Mesaj" cols="30" rows="20"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>

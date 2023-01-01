@@ -1,0 +1,100 @@
+.logo{
+    width:351px;
+    height:113px;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.main{
+    width:90%;  
+    margin-left:auto;
+    margin-right:auto;
+}
+.search-bar{
+    background-color:#EEEEEE;
+    width:90%;
+    height:100%;
+    position: relative;
+    margin: auto;
+}
+
+.kutular{
+  width:fit-content;
+  margin-left:auto ;
+  margin-right:auto;
+}
+#gs{
+    margin-left:55px;
+
+}   
+#lucky{
+    padding-right:10px;
+
+}
+
+p{
+    text-align: center;
+   
+}
+
+.table{
+    margin-top:3px;
+    display: flex;
+    flex-direction:row;
+   justify-content: space-between;
+    width:90%;
+    height:82px;
+    margin-left: auto;
+    margin-right: auto;
+   font-size:15px;
+   align-items: center;
+   margin-top: 10px;
+}
+
+.ilkSutun{
+    
+    background-color:#7EE5DA;
+    width:37%;
+    height:82px;
+    padding-top:7px;
+   
+}
+.ikinciSutun{
+    
+    background-color: #70CCC2;
+    width:20%;
+    height:82px;
+    padding-top:7px;
+}
+.ucuncuSutun{
+    background-color:#62B3AA;
+    height: 82px;
+    width:42.5%;
+    display: inline-block;
+    padding-top:7px;
+}
+li{
+   list-style: none;
+   text-align: center;
+}
+#p2{
+    margin-top: 0px;
+    font-size:12px;
+}
+a{
+    text-align:center;
+}
+#mail{
+    margin-top:-20px;
+   margin-left:24%;
+   margin-right:22%;
+}
+#uye{
+   margin-left:26%;
+   display: inline-block;
+
+}
+#arc{
+   margin-right:0%;
+  
+}
